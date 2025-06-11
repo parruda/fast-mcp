@@ -5,14 +5,14 @@
 require_relative 'lib/mcp/version'
 
 Gem::Specification.new do |spec|
-  spec.name = 'fast-mcp'
+  spec.name = 'fast-mcp-annotations'
   spec.version = FastMcp::VERSION
   spec.authors = ['Yorick Jacquin']
   spec.email = ['yorickjacquin@gmail.com']
 
-  spec.summary = 'A Ruby implementation of the Model Context Protocol.'
-  spec.description = 'A flexible and powerful implementation of the MCP with multiple approaches for defining tools.'
-  spec.homepage = 'https://github.com/yjacquin/fast_mcp'
+  spec.summary = 'A Ruby implementation of the Model Context Protocol. Forked from yjacquin/fast_mcp to add annotations.'
+  spec.description = 'A flexible and powerful implementation of the MCP with multiple approaches for defining tools. Forked from yjacquin/fast_mcp to add annotations.'
+  spec.homepage = 'https://github.com/parruda/fast-mcp'
   spec.license = 'MIT'
   spec.required_ruby_version = '>= 3.0.0'
 
